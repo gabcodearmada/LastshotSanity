@@ -22,6 +22,8 @@ import menuItem from './main/menuItem';
 import page_page from './main/page_page';
 import version from './main/version';
 import sheader from './main/header';
+import sbody from './main/body';
+import sfooter from './main/footer';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -48,6 +50,8 @@ export default createSchema({
     page_page,
     version,
     sheader,
+    sbody,
+    sfooter,
 
     Slide,
     Slider,
