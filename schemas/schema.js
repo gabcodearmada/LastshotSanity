@@ -8,6 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import localeString from './objects/localeString';
 import selectBlock from './objects/select_page_block';
 import selectMenuItem from './objects/select_menu_item';
+import selectGalleryItem from './objects/select_gallery_item';
 
 import Slide from './blocks/block_Slide';
 import Slider from './blocks/block_Slider';
@@ -16,6 +17,8 @@ import SimpleImage from './blocks/block_SimpleImage';
 import ImageAndText from './blocks/block_ImageAndText';
 import ImageWithText from './blocks/block_ImageWithText';
 import FollowUs from './blocks/block_FollowUs';
+import GalleryItem from './blocks/block_GalleryItem';
+import Gallery from './blocks/block_Gallery';
 
 import Menu from './main/menu';
 import menuItem from './main/menuItem';
@@ -44,6 +47,7 @@ export default createSchema({
     localeString,
     selectBlock,
     selectMenuItem,
+    selectGalleryItem,
 
     Menu,
     menuItem,
@@ -59,6 +63,8 @@ export default createSchema({
     SimpleImage,
     ImageAndText,
     ImageWithText,
-    FollowUs
+    FollowUs,
+    GalleryItem,
+    Gallery
   ])
 })
