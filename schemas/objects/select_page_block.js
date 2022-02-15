@@ -12,6 +12,7 @@ export default {
                 {type: 'SimpleImage'},
                 {type: 'ImageAndText'},
                 {type: 'ImageWithText'},
+                {type: 'Gallery'},
                 {type: 'FollowUs'}
             ]
         }

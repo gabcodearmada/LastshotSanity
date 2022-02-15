@@ -9,6 +9,11 @@ export default {
             type: 'string'
         },
         {
+            title: 'Padding Top (eg 60, means 60px. If the gallery is the 1st section of the page it must be 0.)',
+            name: 'paddingtop',
+            type: 'number'
+        },
+        {
             title: 'Select Gallery Items',
             name: 'items',
             type: 'array',
@@ -23,6 +28,9 @@ export default {
             ]
         }
     ],
+    initialValue: {
+        paddingtop: 60
+    },
     preview: {
         select: {
             title: 'description'
