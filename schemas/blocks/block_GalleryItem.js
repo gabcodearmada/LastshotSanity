@@ -9,24 +9,26 @@ export default {
             type: 'string'
         },
         {
+            title: 'Gallery Item Types (Caution! Only one type must be selected)',
+            name: 'itemtype',
+            type: 'galleryitemType'
+        },
+        {
             title: '1st Image (Required, If there is no 2nd image, the 1st will cover the entire width)',
             name: 'ImageNo1',
             type: 'image'
         },
         {
-            title: '1st Image orientation (true -> portrait, false -> landscape. Valid only if there are 2 images)',
-            name: 'isPortraitNo1',
-            type: 'boolean'
-        },
-        {
             title: '2nd Image',
             name: 'ImageNo2',
-            type: 'image'
+            type: 'image',
+            hidden: ({parent}) => !parent.itemtype.T11 && !parent.itemtype.T00 && !parent.itemtype.T100 && !parent.itemtype.T001
         },
         {
-            title: '2nd Image orientation (true -> portrait, false -> landscape. Valid only if there are 2 images)',
-            name: 'isPortraitNo2',
-            type: 'boolean'
+            title: '3nd Image',
+            name: 'ImageNo3',
+            type: 'image',
+            hidden: ({parent}) => !parent.itemtype.T100 && !parent.itemtype.T001
         }
     ]
 }

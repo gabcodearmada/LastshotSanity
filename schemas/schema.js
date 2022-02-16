@@ -9,6 +9,7 @@ import localeString from './objects/localeString';
 import selectBlock from './objects/select_page_block';
 import selectMenuItem from './objects/select_menu_item';
 import selectGalleryItem from './objects/select_gallery_item';
+import galleryitemType from './objects/galleryitemtype';
 
 import Slide from './blocks/block_Slide';
 import Slider from './blocks/block_Slider';
@@ -48,6 +49,7 @@ export default createSchema({
     selectBlock,
     selectMenuItem,
     selectGalleryItem,
+    galleryitemType,
 
     Menu,
     menuItem,
