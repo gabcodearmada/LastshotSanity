@@ -9,6 +9,11 @@ export default {
             type: 'string'
         },
         {
+            title: 'In two columns (Content must contain a lot of p tags, like <p>text here</p>)',
+            name: 'twocol',
+            type: 'boolean'
+        },
+        {
             title: 'Title Text',
             name: 'titletext',
             type: 'localeString'
@@ -42,7 +47,8 @@ export default {
     initialValue: {
         backgroundcolor: '#FFFFFF',
         titlecolor: '#777777',
-        contentcolor: '#666666'
+        contentcolor: '#666666',
+        twocol: false
     },
     preview: {
         select: {
