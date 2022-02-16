@@ -14,6 +14,23 @@ export default {
             type: 'number'
         },
         {
+            title: 'With MORE on top',
+            name: 'moreontop',
+            type: 'boolean'
+        },
+        {
+            title: 'MORE on top Background Color',
+            name: 'bkgcolor',
+            type: 'string',
+            hidden: ({parent}) => !parent.moreontop
+        },
+        {
+            title: 'MORE on top Text Color',
+            name: 'textcolor',
+            type: 'string',
+            hidden: ({parent}) => !parent.moreontop
+        },
+        {
             title: 'Select Gallery Items',
             name: 'items',
             type: 'array',
@@ -29,7 +46,10 @@ export default {
         }
     ],
     initialValue: {
-        paddingtop: 60
+        paddingtop: 60,
+        moreontop: false,
+        bkgcolor: '#FFFFFF',
+        textcolor: '#000000'
     },
     preview: {
         select: {
