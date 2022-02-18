@@ -20,6 +20,7 @@ import ImageWithText from './blocks/block_ImageWithText';
 import FollowUs from './blocks/block_FollowUs';
 import GalleryItem from './blocks/block_GalleryItem';
 import Gallery from './blocks/block_Gallery';
+import ContactUs from './blocks/Block_ContactUs';
 
 import Menu from './main/menu';
 import menuItem from './main/menuItem';
@@ -67,6 +68,7 @@ export default createSchema({
     ImageWithText,
     FollowUs,
     GalleryItem,
-    Gallery
+    Gallery,
+    ContactUs
   ])
 })
