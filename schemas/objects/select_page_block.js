@@ -13,7 +13,9 @@ export default {
                 {type: 'ImageAndText'},
                 {type: 'ImageWithText'},
                 {type: 'Gallery'},
-                {type: 'FollowUs'}
+                {type: 'FollowUs'},
+                {type: 'ContactUs'},
+                {type: 'GoogleMap'}
             ]
         }
     ],

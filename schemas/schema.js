@@ -21,6 +21,7 @@ import FollowUs from './blocks/block_FollowUs';
 import GalleryItem from './blocks/block_GalleryItem';
 import Gallery from './blocks/block_Gallery';
 import ContactUs from './blocks/Block_ContactUs';
+import GoogleMap from './blocks/Block_GoogleMap';
 
 import Menu from './main/menu';
 import menuItem from './main/menuItem';
@@ -69,6 +70,7 @@ export default createSchema({
     FollowUs,
     GalleryItem,
     Gallery,
-    ContactUs
+    ContactUs,
+    GoogleMap
   ])
 })

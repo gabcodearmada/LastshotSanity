@@ -10,6 +10,12 @@ export default {
             readOnly: true
         },
         {
+            title: 'More Info',
+            name: 'moreinfo',
+            type: 'string',
+            readOnly: true
+        },
+        {
             title: 'Vesrion',
             name: 'version',
             type: 'string'
