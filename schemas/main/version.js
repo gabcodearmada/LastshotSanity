@@ -12,7 +12,7 @@ export default {
         {
             title: 'More Info',
             name: 'moreinfo',
-            type: 'string',
+            type: 'text',
             readOnly: true
         },
         {
@@ -28,7 +28,7 @@ export default {
         }
     ],
     initialValue: {
-        description: 'Project Version (changing it, the data is transferred to the site and the Working Version is updated)'
+        description: 'Project Version'
     },
     preview: {
         select: {
